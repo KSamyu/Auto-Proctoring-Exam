@@ -72,7 +72,7 @@ public class GoogleFormRedirector extends JFrame {
        
            //String url = "sql";
                String url = "https://docs.google.com/forms/d/e/your-form-id/viewform";
-               // String url = "https://docs.google.com/forms/d/e/1FAIpQLSd9ObkhQpHbCD8ZF3xdnxXsThbdjNMEd2l9z6VI3bfKzyTCKw/viewform?usp=sf_link";
+           
                try {
                     Desktop.getDesktop().browse(new java.net.URI(url));
                 }
